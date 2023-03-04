@@ -1,0 +1,25 @@
+body{
+   margin: 0px;
+   padding: 0px;
+}
+/*  Add a background color to the navigation */
+.topNavBash{
+background-color: #7f8081;
+overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topNavBash a{
+  float: left;
+  color: #f2f2f2;  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/* Change the color and background color of links on hover */
+.topNavBash a:hover{
+    background-color: #f7faf3;
+    color: black;
+}

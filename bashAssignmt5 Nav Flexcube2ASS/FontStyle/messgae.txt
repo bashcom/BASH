@@ -1,0 +1,108 @@
+
+
+WeTrain on a wide range of Professional IT courses
+
+==
+We Ensure that New  Technological innovations are at your finger Tips.
+We provide Tecnical solutions to All your System and Development challnges
+Our mission is to provide Top quality Trainings on Professional IT courses eg 
+Oracle Database Management , Programming , Web Development, Big Data Analytics
+and much moreOurInstructors are highy skilled and up to date on mordern Technology
+
+====================================
+
+
+
+
+/*body{
+    /*
+
+    font-family: "Times New Roman", Serif;
+  
+     font-size: 18px;
+     line-height: 1.2;
+     color: antiquewhite;
+     background-color: rgb(191, 191, 11);*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body{
+
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+#hero{
+
+width: 100%;
+height: 805px;
+
+background-color: rgb(191, 191, 11);
+
+}
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================
+
+  body{
+
+
+  font-family: "Times New Roman", Serif;
+
+   font-size: 18px;
+   line-height: 1.2;
+   color: antiquewhite;.
+Our mission is to
+   background-color: rgb(9, 9, 10);
+
+
+}
+
+==========================
+======================================
+body{
+
+
+    font-family: "Times New Roman", Serif;
+  
+     font-size: 18px;
+     line-height: 1.2;
+     color: antiquewhite;
+     background-color: rgb(191, 191, 11);
+  
+  
+  }

@@ -1,0 +1,407 @@
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation</title>
+  <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+
+<title>SMILE FLEX WEBSITE.</title>
+<style>
+
+
+body{
+
+/* font-family: 'Courier New', Courier, monospace; */
+
+/* font-family: 'Courier New', Courier, monospace; */
+/*font-family: "Sofia", sans-serif; */
+
+/* https://www.w3schools.com/css/css_font.asp */
+
+/* font-family: "Brush Script MT", Cursive; */
+
+ /*  font-family: "Helvetica", Sans-serif;  */
+ /* font-family: "Lucida Console", "Courier New", monospace; */
+  /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+  font-family: "Times New Roman", Serif;
+
+   font-size: 18px;
+   line-height: 1.2;
+   color: antiquewhite;
+   background-color: rgb(9, 9, 10);
+
+
+}
+
+/* FONT STYLE CODE SPECICFIC ITEM */ 
+
+.p1 {
+
+
+  font-family: "Georgia", Serif;
+   font-size: 30px;
+   line-height: 1.5;
+   color: white;
+   background-color: rgb(12, 12, 12);
+
+     /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+
+}
+
+.p2 {
+  font-family: "Brush Script MT", Cursive;
+  /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+   font-size: 25px;
+   line-height: 1.5;
+   color: white;
+   background-color: rgb(9, 9, 10);
+
+}
+
+.p3 {
+  font-family: "Brush Script MT", Cursive;
+  /* <p class="p1">This is a paragraph, shown in the Times New Roman font.</p> */ 
+   font-size: 16px;
+   line-height: 1.5;
+   color: hsl(0, 14%, 97%);
+   background-color: rgb(54, 54, 56);
+
+}
+
+
+
+       /* SMILE CSS FLEX CUBE*/
+
+    .smile_conatainer{        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 300px;
+        background-color: rgb(153, 154, 156);
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .smile_item img{
+
+     background-color: rgb(42, 68, 171);
+     width: 300px; 
+    
+     /*height: 400px; */
+     margin: 10px;
+     color: aliceblue;
+     
+
+    }
+
+    .bash_conatiner2{        
+        display: flex;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(5, 89, 57);
+
+
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .bash_item2 {
+
+     background-color: rgb(159, 239, 195);
+     width: 25%;
+     height: 400px;
+     margin: 40px;
+     color: rgb(12, 13, 14);
+
+    }
+
+
+    .bash_conatiner3{        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 600px;
+        background-color: purple;
+        align-items: center;
+
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .bash_item3 {
+
+     background-color: rgb(91, 228, 153);
+     width: 25%;
+     /*height: 400px; */
+     margin: 40px;
+     color: rgb(12, 13, 14);
+
+    }
+
+
+
+
+
+
+
+
+    body{
+    background-color: rgb(14, 15, 14);
+    color: azure;
+  }
+  .bash_col{
+    background-color: rgb(148, 156, 151);
+    color: rgb(16, 17, 17);
+  }
+
+  .bash_border_color{
+      border-style: solid;
+      border-width: 3px;
+      border-color: #ece9ee;
+    }
+    .bash__border__radius{
+      border-style: solid;
+      border-width: 5px;
+      border-color: rgb(250, 254, 250);
+      border-radius: 100px  70px 60px 30px;
+    }
+
+
+
+.bash_dotted{
+      border-style:dotted;
+      
+    }
+
+    .bash_dashed{
+      border-style: dashed;
+      
+    }
+
+    .bash_solid{
+      border-style:solid;
+    }
+
+    .bash_double{
+      border-style:double;
+    }
+
+    .bash_groove{ 
+      border-style:groove;
+    }
+
+    .bash_ridge{
+      border-style:ridge;
+    }
+
+    .bash_inset{
+      border-style:inset;
+    }
+
+    .bash_outset{
+      border-style:outset;
+    }
+
+    .bash_border_color{
+      border-style: solid;
+      border-width: 3px;
+      border-color: #f0edf2;
+    }
+
+    
+
+    .bash_float_image1{
+      float: left;
+    }
+
+
+
+
+
+</style>
+
+<style>
+    * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+
+.bash_float_hover {
+    display:flex;
+    flex-direction: row;
+   
+   }
+   
+   .bash_float_hover2{
+   flex:1;
+   
+   }
+   
+   .overlay {
+     position: absolute; 
+     bottom: 0; 
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.5); /* Black see-through */
+     color: #f1f1f1; 
+     width: 100%;
+     transition: .5s ease;
+     opacity:0;
+     color: white;
+     font-size: 20px;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   .container:hover .overlay {
+     opacity: 1;
+   }
+
+
+</style>
+
+
+
+</head>
+
+
+<!--<background color part1>-->
+<!--<body background="sea.jpg"/>-->
+<body>
+
+      <!--<div class="topNavBash">
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</div>-->
+<h1><center><b> <p class="p1"><u><blink>SMILE TELECOMS </blink></u></b></center></h1></p>
+
+<!--<h1><center><b><u><blink>SMILE TELECOMS </blink></u></b></center></h1>-->
+
+ <!--<h3 ><center><p class="p1"></p><b><u><marquee><blink>The No.1 Telecoms  in Africs</blink></marquee></u></b></center></h3></p>-->
+
+ <p class="p2"><marquee> <blink> The No.1 Telecoms Company in Africs</blink></marquee> </p>
+  <!--<h3 ><center><p class="p1"></p><b><u><marquee><blink>The No.1 Telecoms  in Africs</blink></marquee></u></b></center></h3></p>-->
+
+
+    <!--<div class="bash_col"><b>
+    <a href="index.html" style="color:rgb(24, 3, 3);"><b></b>Home</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="AboutUs.html" style="color:rgb(24, 3, 3);"><b></b>AboutUs</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Careers.html" style="color:rgb(24, 3, 3);"><b></b>Careers</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Contactus.html" style="color:rgb(24, 3, 3);"><b></b>ContactUs</b></a>
+
+  </b>
+  </div>-->
+  
+
+    <!--<APPLYING NAV BAR><b>-->
+  <div class="topNavBash">
+    <a href="index.html">HOME</a>
+    <a href="AboutUs.html">ABOUTUS</a>
+    <a href="Careers.html">CAREERS</a>
+    <a href="Contactus.html">CONTACTUS</a>
+</div>
+<p> <h3>ABOUT US:</h3>Smile Telecoms has the widest range of local and international brands and a world class  Data, all at the lowest prices - it is no wonder that Bainy shopping house is Nigeria's favourite shoping complex!
+
+    <div class="bash_float_hover">
+        <P class="bash_float_hover2">Smile Telecoms  the widest range of local and international brands and a world class shopping experience, all at the lowest prices - it is no wonder that Bainy shopping house is Nigeria's favourite shoping complex!
+            Smile Telcecoms in Nigeria for electronics, mobiles, fashion & more
+            Search for products, brands and categories Smile Communications Nigeria is part of a multinational group that operates in many countries across Africa, representing just over 300 million people. Our objective is to become the broadband provider of choice for SuperFast mobile broadband internet and SuperClear 
+            voice services in each of our markets to accelerate development and wealth creation. Our mission is a fully connected Africa enabled by a team driven by passion, integrity, humility, and humanity.
+            Smile is your Nigerian one-stop  Data and Internet Service and High-Tech needs. We offer a wide selection of products including but not limited to Men & Women's Fashion, Mobile Phones, Computers, Electronics, Home Appliances and many more, bringing them right to your doorstep.
+            We also offer you a wide selection of styles and brands, 100% convenience with our 24/7 online access from your home or office, secure payment such as Bank Deposit/Online banking and Cash on Delivery, exceptional customer care service, Fast next-day delivery and returns after 7 days and lots more.
+            Please always check back frequently for new products as we are constantly expanding our range. Stay tuned for new and exciting product categories to be added soon. You can follow us on Facebook and Twitter to stay updated on the latest trends, offers, and Bainy news. Join us in revolutionizing the shopping experience in Nigeria!
+           
+        </P>
+         
+          <div class="container bash_float_hover2">
+           <img src="images_smile/smilecar1.jpg"  alt="Smile Data Plan" class="image" vspace=5 hspace=20/>
+          <div class="overlay">Smile Bumper Data Plan</div>
+        </div>
+        </div>
+        
+ <H3><center> SMILE TELECOMS QUALITY RANGE OF PRODUCTS</center> </H3>
+    <div class="smile_conatainer">
+        <div class="smile_item"><img src="images_smile/smile2.jpg"width=332 height=250 vspace=2 hspace=2/></div>     
+        <div class="smile_item"><img src="images_smile/smilecar3.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+        <div class="smile_item"><img src="images_smile/smile2.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+   
+
+    </div>
+
+
+    <!--<H4> FLEX JUSTIFY CONTENT </H4>-->
+
+    <H3><center> SMILE QUALITY DATA PLAN</center> </H2>
+    <div class="smile_conatainer">
+        <div class="smile_item"><img src="images_smile/smile4.jpg"width=332 height=250 vspace=2 hspace=2/></div>     
+        <div class="smile_item"><img src="images_smile/smilecar2.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+        <div class="smile_item"><img src="images_smile/smile6.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+   
+
+    </div>
+
+    <!--<H4> FLEX JUSTIFY CONTENT </H4>-->
+
+   
+    <H3><center> SMILE BUMPER CALL PLAN</center> </H3>
+    <div class="smile_conatainer">
+        <div class="smile_item"><img src="images_smile/smile7.jpg"width=332 height=250 vspace=2 hspace=2/></div>     
+        <div class="smile_item"><img src="images_smile/smilecar4.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+        <div class="smile_item"><img src="images_smile/smile9.jpg"width=332 height=250 vspace=2 hspace=2/></div>  
+   
+    </div>
+
+
+    <h3><legend> <center>AMAZING  DATA AND CALL OFFERS FROM SMILE TELECOMS S</legend></center>
+      <div class="bash__border__radius">
+        <h2><center></h2center>SMILE TELECTOMS  PROMO  DATA OFFERS</center></h2>
+        <p> 
+          The Best  Call and Data Plans  of 21st century Ecomerce Products
+    
+        </p>
+        <ul>
+          <li>More Data Plans at the same  Price</li>
+          <li>Affordable USb DAta Dungle</li>
+          <li>Unlimited  Call Offers </li>
+          <li> Fast and Uniue Connectivity</li>
+        </ul>
+    
+    
+        <P>
+           Smile Telecoms,With the widest range of local and international brands and a world class shopping experience, all at the lowest prices - it is no wonder that Bainy shopping house is Nigeria's favourite shoping complex!
+        </P>
+      </div>
+
+
+
+    <br><br> <br><br>
+
+    <!--<p class="p3"><marquee> <blink> Smile Offers The Best Promo and Data Plan </blink></marquee> </p>-->
+
+   
+    <marquee width="100%" behavior="alternate" bgcolor="#8B4000">The No.1 Telecoms Company in Africs</marquee> 
+
+    <hr><center><b>Copyright owners @ Smile Telecoms 2023.<b><center><hr>
+
+
+</body>
+</html>

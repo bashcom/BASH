@@ -1,0 +1,44 @@
+/*body{
+    /*
+
+    font-family: "Times New Roman", Serif;
+  
+     font-size: 18px;
+     line-height: 1.2;
+     color: antiquewhite;
+     background-color: rgb(191, 191, 11);*/
+    /* background-color: rgb(191, 191, 11);*/
+    /*background-image: url('ahero4.jpeg');*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body{
+
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+#hero{
+
+width: 100%;
+height: 805px;
+background: url("ahero4.jpeg");
+
+}
+
+
+
+
+
+  
+  
+  

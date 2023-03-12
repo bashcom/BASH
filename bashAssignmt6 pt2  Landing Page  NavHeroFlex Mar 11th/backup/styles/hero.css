@@ -1,0 +1,198 @@
+/*body{
+    /*
+
+    font-family: "Times New Roman", Serif;
+  
+     font-size: 18px;
+     line-height: 1.2;
+     color: antiquewhite;
+     background-color: rgb(191, 191, 11);*/
+    /* background-color: rgb(191, 191, 11);*/
+    /*background-image: url('ahero4.jpeg');*/
+     /*background: url("ahero3.jpg");*/
+
+ @import url("https://fonts.googleapis.com");
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body{
+
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+
+/*  SETTING IMAGE HEIGHT AND WIDTH */
+
+#hero{
+
+width: 100%;
+height: 805px;
+/* background: url("images/imag2.jpg");*/
+/*background: url(../images/wall.webp);*/
+/*background-image: url('images/imag2.jpg');*/
+
+background: url(../images/imag2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 32px;
+
+/*background-color: rgb(244, 25, 43);*/
+
+}
+
+.container{
+max-width: 1140px;
+margin: 0 auto;
+
+
+}
+
+
+
+/* NAV BAR APPLY FLEX CUBE PARENT*/
+
+.navbar{
+display: flex;
+justify-content: space-between;
+margin-bottom: 100px;
+
+
+}
+
+
+/* NAV BAR APPLY FLEx PROPERTIES TO LAST CHISLD*/
+
+/* Ncreates spaces within navbar and its color*/
+
+.navbar .menu a:not(:last-child){
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 14px;
+    transition-duration:0.4s;
+    letter-spacing: 0.5px;
+
+
+}
+
+
+
+/* APPLY HOVER EFFECT ON NAV BAR*/
+
+.navbar .menu a:not(:last-child):hover{
+
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+
+
+}
+
+
+/* APPLY HOVER EFFECT ON NAV BAR SIGNUP , pick  btn-signup from index html */
+
+.navbar .menu .btn-signup{
+
+    color: #ffffff;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+
+}
+  
+/* APPLY HOVER ON SIGHN P BUTTON*/
+
+  .navbar .menu .btn-signup:hover{
+   
+    background: #ffffff;
+    color : #2e2c2c
+
+  }
+
+  /* FORMATING HERO BOX  AND OSITIONING IT */
+  /* THIS DETERMINES THE POSITION OF TEH TEXT */
+  
+  .hero-box{
+   
+    width: 50%;
+    margin-top: 200px;
+
+    
+/* FORMATING THE HERO BOX MESSAGES */
+
+  }
+
+  .hero-box .hero-heading{
+
+    color: #ffffff;
+
+    /* color: #fa8c1d;*/
+    font-size: 40px;
+    line-height: 45px;
+    font-size: 'Poppins' sans-serif;
+
+  }
+
+  
+    
+/* FORMATING THE HERO BOX MESSAGES 2nd line hero desc */
+
+  .hero-box .hero-desc{
+
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 30px 0;
+
+  }
+
+  .hero-box .btn-box{
+    margin-top: 60px;
+
+  }
+
+  
+/* FORMATING BUTTON  */
+
+  .hero-box .cta-btn{
+    background: #ffffff;
+    margin-right: 30px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #2e2c2c;
+  }
+
+
+  
+/* FORMATING BUTTON HOVER   */
+
+  .hero-box .cta-btn:hover{
+   background: rgba(255, 255, 255, 0.2);
+  }
+
+  .hero-box .demo{
+
+  /*background: transparent;*/
+  border: 1px solid #ffffff;;
+
+
+  }
+
+  .hero-box .try{
+
+    /*background: transparent;*/
+    border: 1px solid #ffffff;;
+  
+  
+    }
